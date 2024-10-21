@@ -1,64 +1,53 @@
 import React from "react";
+import "./NewZealand.css";
+import Van from "./Van";
+import us from "./img/Us.jpg";
 
 export default function NewZealand() {
   return (
     <div className="NewZealand">
-      <p>
-        Hi, we're Wayne and Holly, and since October 2024 we've been in New
-        Zealand. This page is to show what we've been up to on our travels.
-      </p>
-      <p>
-        First of all, let us introduce you to our van - Digby / Ste - van / Van
-        Diesel / Percy. <br /> A 2018 Toyota Hiace.
-      </p>
-      <div className="row">
-        <div className="col-md-4">
-          <img
-            src="../src/img/Van.jpg"
-            alt="Our van"
-            className="img-fluid"
-          ></img>
+      <div className="hero">
+        <h1>Our New Zealand Travels</h1>
+        <h2>Follow our adventure around The Land of the Long White Cloud</h2>
+      </div>
+      <div className="row about-us">
+        <div className="col-md-6">
+          <img src={us} alt="Wayne and Holly" className="img-fluid" />
         </div>
-        <div className="col-md-4">
-          <img
-            src="../src/img/Van Cab.jpg"
-            alt="Our Van"
-            className="img-fluid"
-          ></img>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="../src/img/Van Inside.jpg"
-            alt="Our van"
-            className="img-fluid"
-          ></img>
+        <div className="col-md-6">
+          <p>
+            Hi, we're Wayne and Holly, and we're currently living in New Zealand
+            on a one year working holiday visa. This page is to show where we go
+            on our travels, what we get up to and hopefully share some tips and
+            tricks for anyone who wants to do what we're doing!
+            <br />
+            Wayne loves surfing and swimming. Can do pretty much any sport you
+            can think of and is planning on training to do an Iron Man while
+            we're here. He's the one responsible for the van build and most of
+            the planning of our trip.
+            <br />
+            I'm Holly, a qualified yoga instructor and an animal lover. I enjoy
+            running, cycling, hiking and swimming when I get the chance. I have
+            recently completed a course in web development which is why this
+            page exists!
+          </p>
         </div>
       </div>
 
-      <div className="row">
-        <div className="col-md-4">
-          <img src="#" alt="Our van" className="img-fluid"></img>
-        </div>
-        <div className="col-md-4">
-          <img src="#" alt="Our Van" className="img-fluid"></img>
-        </div>
-        <div className="col-md-4">
-          <img src="#" alt="Our van" className="img-fluid"></img>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4">
-          <img src="#" alt="Our van" className="img-fluid"></img>
-        </div>
-        <div className="col-md-4">
-          <img src="#" alt="Our Van" className="img-fluid"></img>
-        </div>
-        <div className="col-md-4">
-          <img src="#" alt="Our van" className="img-fluid"></img>
-        </div>
-      </div>
-
-      <button className="btn btn-primary">Follow Us</button>
+      <Van />
+      <button className="btn btn-dark">
+        <a
+          href="https://www.instagram.com/hollyberrywigmore/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          👩‍💻 Find us on Instagram
+        </a>
+      </button>
+      <br />
+      <button className="btn btn-dark">
+        <a href="mailto:hollywigmore@outlook.com">📬Email Us</a>
+      </button>
     </div>
   );
 }
