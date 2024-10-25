@@ -1,10 +1,10 @@
 import "./App.css";
-import NewZealand from "./NewZealand";
+import AboutUs from "./AboutUs";
 
 function App() {
   return (
     <div className="App">
-      <NewZealand />
+      <AboutUs />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 .img-gallery img {
-  border-radius: 5px;
+  border-radius: 2px;
   transition: all 150ms ease-in-out;
 }
 .img-gallery img:hover {
   transform: scale(1.05);
 }
 .card {
-  background: #9fd3c7;
+  background: #ececec;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 10px;
@@ -22,7 +22,7 @@
   padding: 20px;
   background: #ececec;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .header p {
   font-size: 20px;

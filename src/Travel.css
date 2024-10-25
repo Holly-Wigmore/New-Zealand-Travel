@@ -1,0 +1,15 @@
+.content {
+  padding: 80px;
+  margin: 20px;
+  margin-top: 50px;
+  background: #ececec;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.Travel ul {
+  margin-top: 150px;
+}
+
+.Travel li {
+  text-align: left;
+}

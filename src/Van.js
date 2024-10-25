@@ -11,21 +11,35 @@ import vanBuild6 from "./img/Van Build 2.jpg";
 import vanBuild7 from "./img/Van Build 3.jpg";
 import vanBuild8 from "./img/Van Build 4.jpg";
 import vanBuild9 from "./img/Van Build Girl.jpg";
+import vanClean from "./img/Van Clean.jpg";
+import vanClean2 from "./img/Empty Van.jpg";
+import vanInsulate1 from "./img/Insulation 2.jpg";
+import vanInsulate2 from "./img/Roof Insulation.jpg";
+import vanInsulate3 from "./img/Floor Insulation.jpg";
+import vanInsulate4 from "./img/Floor Insulation 3.jpg";
+import Travel from "./Travel";
 import "./Van.css";
 
 export default function Van() {
   return (
     <div className="Van">
       <div className="header">
-        <h3>
-          First of all, let us introduce you to our van - Digby / Ste - van /
-          Van Diesel / Percy. <br /> A 2018 Toyota Hiace.
-        </h3>
+        <h3>First of all, let us introduce you to our van - Bubbles 🫧</h3>
+        <p>A 2018 Toyota Hiace</p>
         <p>
-          Check out our Van-stagram to see the building progress and where we
-          are 🚘
+          We purchased this van and spent over a month getting it Certified
+          Self-Contained so we can take her on the road and freedom camp while
+          we travel around this beautiful country. Complete with a fridge,
+          toilet, solar panels, roof rack, ample power, a comfy double bed,
+          plenty of storage and all-round good vibes we put a lot of time and
+          love into our van.
+        </p>
+        <p>
+          Keep scrolling to check out our Van-stagram and see the building
+          progress or follow our journey here.
         </p>
       </div>
+      <Travel />
       <div className="img-gallery">
         <div className="row m-5">
           <div className="col justify-content-evenly card">
@@ -79,6 +93,41 @@ export default function Van() {
           <div className="col justify-content-evenly card">
             <img src={vanBuild8} alt="Our Van" className="img-fluid"></img>
             <p>How many trips will we be taking to Bunnings??</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanClean} alt="Our Van" className="img-fluid"></img>
+            <p>Bubbles getting her first of many washes</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanClean2} alt="Our Van" className="img-fluid"></img>
+            <p>Removed the flooring, walls and roof for insulation</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate1} alt="Our van" className="img-fluid"></img>
+            <p>Before installing the roof insulation...</p>
+          </div>
+        </div>
+        <div className="row m-5">
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate2} alt="Our Van" className="img-fluid"></img>
+            <p>Half way through installing the roof insulation 👍</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate3} alt="Our Van" className="img-fluid"></img>
+            <p>Van or Spaceship? 🚀 Bubbles is all wrapped up</p>
+          </div>
+
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate4} alt="Our Van" className="img-fluid"></img>
+            <p>We put the floor back down, now on to the next step</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate4} alt="Our Van" className="img-fluid"></img>
+            <p>Coming soon...</p>
+          </div>
+          <div className="col justify-content-evenly card">
+            <img src={vanInsulate4} alt="Our Van" className="img-fluid"></img>
+            <p>Coming soon...</p>
           </div>
         </div>
       </div>
