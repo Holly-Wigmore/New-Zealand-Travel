@@ -7,9 +7,14 @@
 }
 
 .Travel ul {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .Travel li {
   text-align: left;
+  font-size: 20px;
+}
+.Travel li:hover {
+  font-size: 22px;
+  font-style: italic;
 }
